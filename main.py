@@ -14,7 +14,12 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 app = FastAPI(
     title="API de Estoque",
     description="API para gerenciamento de estoque",
-    version="1.0.0"
+    version="1.0.0",
+    contact={
+        "name": "Schnev Thompson",
+        "email": "schnevthompson@proton.me"
+        
+    }
 )
 
 
