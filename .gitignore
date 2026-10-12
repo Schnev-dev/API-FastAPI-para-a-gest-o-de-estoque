@@ -5,3 +5,5 @@ __pycache__/
 .mypy_cache/
 .env
 stockdb
+
+stockdb.db
